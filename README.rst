@@ -13,7 +13,7 @@ Quick start
 
 2. Import Number2Words in your module::
 
-    from number2words.number2words import Number2Words
+    from number2words import Number2Words
 
 3. Usage::
 
