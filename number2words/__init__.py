@@ -41,7 +41,7 @@ class Number2Words(object):
 
         words_list = self._group_to_numbers(msbs, hundreds, tens)
 
-        return ' '.join(words_list)
+        return ' '.join(words_list) + ' only'
 
     @staticmethod
     def _group_numbers(number):
